@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  margin:40px auto;
+}
+
+ol, ul {
+  padding-left:60px;
+  list-style-type: none;
+  margin-top:0;
+}
+
+.border-row:after{
+  clear: both;
+  content: "";
+  display:table;
+}
+
+.status{
+  text-align:left;
+  margin-bottom:30px;
+  font-size:24px;
+  color:#000;
+  font-weight:500;
+}
+
+.satsus-winer{
+  text-align:left;
+  margin-bottom:30px;
+  padding: 15px 50px;
+  background-color: #2e822e;
+  border-radius: 5px;
+  box-shadow: 2px 1px 1px 0px #2e822e;
+  font-size:24px;
+  color:#fff;
+  font-weight:500;
+}
+
+.square{
+  background-color: #fff;
+  border:1px solid #999;
+  float:left;
+  font-size:36px;
+  font-weight: 600;
+  line-height:40px;
+  height:120px;
+  width:120px;
+  margin-right:-1px;
+  margin-top:-1px;
+  padding:0;
+  text-align:center;
+  cursor: pointer;
+}
+
+.square:focus{
+  outline:none;
+  box-shadow: none;
+  background-color: #f1f136;
+  color: #000;
+}
+
+.game{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.game-history {
+  text-align:left;
+  font-size:20px;
+  margin-top:20px;
+  font-weight:500;
+}
+
+.history-btn{
+  background-color: transparent;
+  color:#000;
+  border:0;
+  font-size:16px;
+  font-weight:400;
+  padding:5px;
+  margin-bottom:5px;
+}
+
+.history-btn:focus{
+  outline:none;
+  box-shadow: none;
+  color: #2e822e;
+}
+
+.history-btn:hover{
+  color: #2e822e;
+}
+
